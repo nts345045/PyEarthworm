@@ -2,6 +2,9 @@
 
 PyEarthworm is a python interface to the Earthworm Messaging Transport system. It seeks to create an easy to use framework to create modern earthworm modules with python. The main class handles the EW module basics such as listening to stop messages and creating heartbeats. You can then use python threads to aquire and insert data from multiple EW Rings. Wave data is already returned as a numpy array so you may use fast c-optimized algorithms with cython. It comes with multiple examples which you may modify in order to speed up development.
 
+## FORK NOTE: nts345045/PyEarthworm  
+This fork is intended to develop updated installation guidance relevant to the Pacific Northwest Seismic Network `wyrm` project (https://github.com/pnsn/wyrm)
+
 ## Installation
 
 ### Preparation
